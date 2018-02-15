@@ -1,0 +1,29 @@
+body {
+    background-color: #C3D4DE;
+}
+
+.col-sm-6 {
+    border:1px solid black;
+}
+
+.alert-primary {
+    background-color: #002244;
+    color:white;
+    border-color: white;
+}
+
+.instructions {
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#currentWord {
+    font-size: 28px;
+}
