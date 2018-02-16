@@ -6,28 +6,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hangman Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <img src="assets/images/logo.png" alt="Cowboys Logo" class="logo">
-    <div class="alert alert-primary text-center" role="alert">
-        Dallas Cowboys Hangman Game
+
+    <!--Jumbotron with Title & logo-->
+    <div class="jumbotron">
+        <img src="assets/images/Dallas-Cowboys.jpg" alt="Cowboys Logo" class="logo">
+
     </div>
+
+    <!--Jumbotron with Title & logo-->
+
     <div class="container">
         <div class="row">
-            <div class="col-sm-6"></div>
             <div class="col-sm-6">
-                <div class="instructions">Press any key to get started!</div><br>
-                <p>Current Word: </p>
-                <p id="currentWord"></p>
-                <p>Letters Guessed:</p>
-                <p id="guessedIncorrectly"></p>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">HANGMAN</h3>
+                    </div>
+                    <div class="panel-body">
+                            <img src="assets/images/cowboys1.jpg" alt="Cowboys Logo" class="panel-photos">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Press any key to get started!</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Wins:</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p id="wins"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Current Word: </p>
+                                <p id="currentWord"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Number of Guesses Remaining:</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p id="guessesRemaining"></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Letters Guessed:</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p id="guessedIncorrectly"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-        <script src="assets/javascript/game.js"></script>
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
     </div>
 </body>
 

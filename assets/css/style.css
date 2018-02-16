@@ -1,20 +1,7 @@
-body {
-    background-color: #C3D4DE;
-}
-
-
-
-.alert-primary {
-    background-color: #002244;
-    color:white;
-    border-color: white;
-}
-
-.instructions {
-    background-color: #002244;
-    color: white;
-    text-align: center;
-    padding: 5px 10px;
+.jumbotron {
+    background-color: #111111;
+    padding-top: 0px;
+    height: 220px;
 }
 
 .logo {
@@ -22,7 +9,26 @@ body {
     margin: 0 auto;
 }
 
+.panel-default {
+    height: 320px;
+}
+
+.panel-default > .panel-heading {
+    background-color: #102D67;
+    color: white;
+  }
+
+.panel-photos {
+    display: block;
+    padding: 0px;
+    margin: 0 auto;
+}
+
 #currentWord {
     font-size: 28px;
     letter-spacing: 12px;
+}
+
+#id {
+    text-align: center;
 }
