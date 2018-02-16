@@ -19,20 +19,24 @@
 
     </div>
 
-    <!--Jumbotron with Title & logo-->
 
+    <!--Main container-->
     <div class="container">
         <div class="row">
+
+            <!--Left Panel - images-->
             <div class="col-sm-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3 class="panel-title text-center">HANGMAN</h3>
                     </div>
                     <div class="panel-body">
-                            <img src="assets/images/cowboys1.jpg" alt="Cowboys Logo" class="panel-photos">
+                        <img src="assets/images/cowboys_field.jpg" alt="Cowboys Logo" class="panel-photos">
                     </div>
                 </div>
             </div>
+
+            <!--Right Panel - game content-->
             <div class="col-sm-6">
                 <div class="panel panel-default">
                     <div class="panel-heading">
@@ -40,46 +44,41 @@
                     </div>
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-sm-offset-2">
                                 <p>Wins:</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <p id="wins"></p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-6 col-sm-offset-2">
                                 <p>Current Word: </p>
                                 <p id="currentWord"></p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-sm-offset-2">
                                 <p>Number of Guesses Remaining:</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <p id="guessesRemaining"></p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-6 col-sm-offset-2">
                                 <p>Letters Guessed:</p>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <p id="guessedIncorrectly"></p>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
-
-
     <script src="assets/javascript/game.js"></script>
     </div>
 </body>
-
 </html>
